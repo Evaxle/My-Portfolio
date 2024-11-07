@@ -8,6 +8,7 @@ React<br>
 Javascript<br>
 Python<br>
 Tkinter<br>
+Django<br>
 C++<br>
 C#<br>
 Java<br>
