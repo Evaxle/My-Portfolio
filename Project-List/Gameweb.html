@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Gameweb</title>
+        <style>
+            #Content {
+               text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="Content">
+        <h1>Gameweb</h1>
+        <p>First project to open webpages inside of iframe</p>
+        <input id="urlinput">
+        <button id="funcbtn" onclick="loadframe()">Load</button><br>
+        <iframe id="theframe" src=""></iframe>
+        </div>
+    </body>
+    <script>
+      function loadframe() {
+        var url = document.getElementById('urlinput').value;
+        document.getElementById('theframe').src = url;
+      }
+    </script>
+</html>

@@ -108,3 +108,14 @@ footer {
     padding: 10px;
     margin-top: 40px;
 }
+
+.code-block {
+    background-color: #f4f4f4; /* Light background color */
+    border: 1px solid #ddd; /* Border to define code block */
+    padding: 16px; /* Padding for readability */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    white-space: pre; /* Preserve whitespace */
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    border-radius: 5px; /* Slight rounding for cleaner appearance */
+    margin: 20px 0; /* Space around code block */
+  }

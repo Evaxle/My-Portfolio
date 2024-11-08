@@ -1,0 +1,3 @@
+{
+    "srccode": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <title>Gameweb</title>\n        <style>\n            #Content {\n               text-align: center;\n            }\n        </style>\n    </head>\n    <body>\n        <div id=\"Content\">\n        <h1>Gameweb</h1>\n        <p>First project to open webpages inside of iframe</p>\n        <input id=\"urlinput\">\n        <button id=\"funcbtn\" onclick=\"loadframe()\">Load</button><br>\n        <iframe id=\"theframe\" src=\"\"></iframe>\n        </div>\n    </body>\n    <script>\n      function loadframe() {\n        var url = document.getElementById('urlinput').value;\n        document.getElementById('theframe').src = url;\n      }\n    </script>\n</html>"
+}  
